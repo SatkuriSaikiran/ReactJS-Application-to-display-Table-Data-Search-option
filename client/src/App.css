@@ -1,0 +1,151 @@
+/* .App {
+    text-align: center; /* Aligning content in the center */
+  /* } */ */
+  
+  .pagination-container {
+    display: flex;
+    justify-content: flex-end; /* Align pagination to the right */
+  }
+  
+  .pagination {
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .pagination li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .pagination button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .pagination li.active {
+    font-weight: bold;
+  }
+
+
+
+  /* -------------------------- */
+
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #00246B;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-deals:hover {
+  border: 1.5px solid #00246B;
+}
+
+
+.add-first {
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 15px;
+}
+
+.add-second {
+  font-size: 1rem;
+  margin-left: 3px;
+}
+
+.add-icon {
+  display: flex;
+  
+}
+
+
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: pink;
+  width: 620px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.nav-search:hover {
+  border: 2px solid #CADCFC;
+}
+
+.search-select {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+
+.search-input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #CADCFC;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #0f1111;
+}
+
+span {
+  font-size: 0.7rem;
+  
+}
+
+.nav-second {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.nav-cart i {
+  font-size: 30px;
+}
+.nav-cart {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.panel {
+  height: 40px;
+  background-color: #CADCFC;
+  display: flex;
+  color: #00246B;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.panel-ops p{
+  display: inline;
+  margin-left: 15px;
+}
+
+.panel-ops {
+  width: 70%;
+  font-size: 0.85rem;
+}
+
+.panel-deals {
+  font-size: 0.9;
+  font-weight: 700;
+}
