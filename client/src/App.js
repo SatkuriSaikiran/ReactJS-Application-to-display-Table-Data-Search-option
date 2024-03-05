@@ -578,7 +578,7 @@ function handleFilter(event) {
         </div>
         
         <div className="nav-return">
-          <p className="nav-second">Automatically Sorted by Creation Date</p>
+          <button type="button">Sort</button>
         </div>
         
       </div>
